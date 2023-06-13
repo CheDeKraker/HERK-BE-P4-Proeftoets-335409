@@ -11,10 +11,9 @@ class RijlessenModel
 
     public function getRijlessen()
     {
-        $sql = "SELECT Id
-                      ,Voornaam
+        $sql = "SELECT Voornaam
                       ,Mobiel
-                      ,Pakket Naam
+                      ,PakketNaam
                       ,AantalLessen
                       ,Prijs
                       ,StartDatumRijlessen
