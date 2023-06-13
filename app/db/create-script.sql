@@ -87,7 +87,7 @@ INSERT INTO `LeerlingPerLesPakket` (`Id`, `LesPakketId`, `LeerlingId`, `StartDat
 DROP TABLE IF EXISTS `LesPakket`;
 CREATE TABLE IF NOT EXISTS `LesPakket` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `Pakket Naam` varchar(30) NOT NULL,
+  `PakketNaam` varchar(30) NOT NULL,
   `AantalLessen` int(3) NOT NULL,
   `Rijbewijscategorie` varchar(3) NOT NULL,
   `Prijs` int(5) NOT NULL,
@@ -98,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `LesPakket` (
 -- Gegevens worden geëxporteerd voor tabel `LesPakket`
 --
 
-INSERT INTO `LesPakket` (`Id`, `Pakket Naam`, `AantalLessen`, `Rijbewijscategorie`, `Prijs`) VALUES
+INSERT INTO `LesPakket` (`Id`, `PakketNaam`, `AantalLessen`, `Rijbewijscategorie`, `Prijs`) VALUES
 (1, 'Personeauto Extra', 40, 'B', 2700),
 (2, 'Vrachtwagen Subliem', 60, 'C', 5400),
 (3, 'Bus Extraordinaire', 80, 'D', 7300),
