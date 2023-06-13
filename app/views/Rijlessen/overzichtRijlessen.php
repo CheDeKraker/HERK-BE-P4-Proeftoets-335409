@@ -14,7 +14,6 @@
 
     <table>
         <thead>
-            <th>Id</th>
             <th>Naam</th>
             <th>Mobiel</th>
             <th>Pakketnaam</th>
